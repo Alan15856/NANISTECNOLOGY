@@ -1,0 +1,21 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(,*)$ $1.php
+
+DirectoryIndex view/login.php
+
+
+#login
+RewriteRule ^login$ view/login.php [L]
+RewriteRule ^home$ view/home.php [L]
+RewriteRule ^registro$ view/registro.php [L]
+RewriteRule ^producto$ view/producto.php [L]
+RewriteRule ^monitoress$ view/monitoress.php [L]
+RewriteRule ^discoduro$ view/discoduro.php [L]
+RewriteRule ^teclado$ view/teclado.php [L]
+RewriteRule ^ram$ view/ram.php [L]
+RewriteRule ^carrito$ view/carrito.php [L]
+RewriteRule ^tienda$ tienda.php [L]
+RewriteRule ^cart$ cart.php [L]
