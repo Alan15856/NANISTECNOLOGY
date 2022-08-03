@@ -1,0 +1,113 @@
+/**.product-box {
+    display: inline-table;
+    padding: 10px;
+    width: calc(100%/5 - 20px);
+}
+
+.icono-box {
+    display: inline-table;
+    position: relative;
+    border-radius: 360px;
+    padding: 25px;
+    height: 100px;
+    background-color: rgb(119, 184, 238);
+    width: 100px;
+}
+
+.icon-box a {
+    text-decoration: none;
+}
+
+.icono-list {
+    display: inline;
+    width: 100%;
+}
+
+
+
+.product {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 3px #ccc;
+    background-color: #fff;
+    font-family: 'Sen', sans-serif;
+}
+
+.product-box a {
+    text-decoration: none;
+}
+
+.detail-title {
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    width: calc(100% - 10px);
+    height: 35px;
+}
+
+.detail-description {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    padding: 5px;
+    width: calc(100% - 10px);
+    height: 34px;
+}
+
+.detail-price {
+    text-align: center;
+    font-size: 25px;
+    color: var(--main-red);
+    padding: 5px;
+    width: calc(100% - 10px);
+}
+
+.main-content {
+    margin-top: 60px;
+    width: 100%;
+    font-family: 'Sen', sans-serif;
+    justify-content: space-around;
+}
+
+.content-page {
+    margin: auto;
+    padding: 10px;
+    width: calc(100% - 20px);
+    max-width: 1500px;
+    justify-content: space-around;
+}
+
+.content-page section {
+    display: flex;
+    background: #fff;
+    justify-content: space-around;
+}
+
+.detail-price span {
+    font-size: 15px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.icono {
+    position: absolute;
+    left: 10% top 20;
+}
+
+h6 {
+    text-align: center;
+}
+.fother{
+    text-align: center;
+    color: black;
+}
+
+.h1{
+    text-align: center;
+    color: black;
+}
+**/
