@@ -4,13 +4,13 @@ include 'Mailer/src/SMTP.php';
 include 'Mailer/src/Exception.php';
 class enviar {
 public function enviar_correo($correo){
-    $fromemail  = "beerrun.utsc@outlook.com";
+    $fromemail  = "Correo";
     $fromname   = $nombre;
     $host       = "smtp.office365.com";
     $port       = "587";
     $SMTPAuth   = "true";
     $SMTPSecure = "STARTTLS";
-    $password   = "Beerrun123";
+    $password   = "Contraseña del correo";
     $subject    = "!SUPER PROMOCIONES BERRUN!!!";
     $bodyEmail  = "<br>Aprovecha las super promociones que tenemos para ti  ";
 
